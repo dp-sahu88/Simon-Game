@@ -52,6 +52,7 @@ function nextSequence() {
         started=false;
         gamePattern.length=0;
         level=0;
+        userClickedPattern.length=0;
  }
 
 $(".btn").click(function () {
